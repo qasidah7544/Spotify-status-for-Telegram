@@ -42,7 +42,7 @@ Leave "Your normal bio" empty to take it from your profile. Closing the window k
 
 - Bio is limited to 70 characters (140 with Telegram Premium). Long titles are cut.
 - No track timer: Telegram rate-limits profile changes.
-- Works only while the app is running.
+- Works only while the app is running. Shutting down or logging off restores your normal bio; a power loss or a killed process leaves the last track until the next start.
 - Windows SmartScreen may warn about the unsigned exe: *More info → Run anyway*.
 
 ## Security

@@ -28,7 +28,7 @@ from telethon.errors import AboutTooLongError, FloodWaitError, PasswordHashInval
 if sys.platform == "win32":
     import winreg
 
-VERSION = "1.1.2"  # bump together with the release tag
+VERSION = "1.1.3"  # bump together with the release tag
 REPO = "Thekeq/Spotify-status-for-Telegram"
 REPO_URL = f"https://github.com/{REPO}"
 APP_NAME = "SpotifyStatusTelegram"
@@ -465,6 +465,7 @@ class App:
         self.tray_hint_shown = False
 
         root.protocol("WM_DELETE_WINDOW", self.hide_to_tray)
+        root.protocol("WM_SAVE_YOURSELF", self._on_shutdown)  # Tk's name for Windows shutdown / log off
         self._poll()
         if hidden:
             self.tray_hint_shown = True
@@ -701,6 +702,12 @@ class App:
                     except OSError:
                         pass
         threading.Thread(target=serve, daemon=True).start()
+
+    def _on_shutdown(self):
+        """PC is shutting down: put the normal bio back before Windows kills us."""
+        if self.worker and self.worker.thread.is_alive():
+            self.worker.stop()
+            self.worker.thread.join(timeout=5)  # Windows force-closes apps after about 5 s
 
     def hide_to_tray(self):
         self.root.withdraw()
